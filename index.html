@@ -16,8 +16,10 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/3.5.3/js/tabulator.min.js"></script>
     <script src="assets/javascript/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="assets/javascript/jquery.windows.js"></script>
 </head>
 <body>
+    <section class="window">
     <div class="container">
         <div class="jumbotron text-center">
         <div class="row-12">
@@ -28,7 +30,6 @@
            <div class="col-12">
                <div  id="gif-buttons"></div>
                </div>
-               
       <!--Search Parameters-->
       <div class="card">
         <h5 class="card-header">Add Schedule</h5>
@@ -61,14 +62,26 @@
       </div>
   
       <br>
+    </section>
+      
+    <section class="window">
       <br>
-   
+      <div class="container">
+          <div class="jumbotron text-center">
+          <div class="row-12">
+        <h1 class="display-4"><i class="far fa-address-card"></i>  Train Times</h1>
+        <h2>A Comprehensive Directory of Train Schedules.</h2>
+         </div>
+          <br>
+             <div class="col-12">
+                 <div  id="gif-buttons"></div>
+                 </div>
       <div>
           <div>
               <h3>Current Train Schedule</h3>
           </div>
           <div>
-              <table class="table-bordered" id="trainTable">
+              <table class="text-center" class="table-bordered" id="trainTable">
                   <tr>
                       <th><i></i> Train Name</th>
                       <th><i></i> Destination</th>
@@ -85,5 +98,6 @@
   
   
     </div>
+  </section>
 </body>
 </html>
