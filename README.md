@@ -8,7 +8,6 @@
 
 <h4 align="center">A small app to track and schedule trains built with <a href="https://javascript.org/" target="_blank">Javascript</a>.</h4>
 
-<a href="https://github.com/brycelang/liri-node-app"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
 
 <p align="center">
 
